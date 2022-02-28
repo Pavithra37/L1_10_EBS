@@ -42,7 +42,7 @@ public class ChangePassword extends javax.swing.JFrame {
         CP_Label.setText("PASSWORD CHANGING");
 
         NewPass_Label.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        NewPass_Label.setText("New password:");
+        NewPass_Label.setText("Enter new password:");
 
         Change_Button.setBackground(new java.awt.Color(153, 153, 153));
         Change_Button.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -115,7 +115,7 @@ public class ChangePassword extends javax.swing.JFrame {
                             .addComponent(Password_TF, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(UserID_TFL, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(ConfirmP_TF, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(114, Short.MAX_VALUE))
+                .addContainerGap(88, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
